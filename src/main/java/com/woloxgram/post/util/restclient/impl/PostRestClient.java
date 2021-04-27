@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 
 import com.woloxgram.post.model.Post;
 import com.woloxgram.post.util.restclient.IPostRestClient;
-import com.woloxgram.post.util.restclient.exception.PostRestClientException;
+import com.woloxgram.post.util.exception.PostRestClientException;
 
 @Component
 public class PostRestClient implements IPostRestClient {

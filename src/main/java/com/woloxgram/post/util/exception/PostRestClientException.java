@@ -1,4 +1,4 @@
-package com.woloxgram.post.util.restclient.exception;
+package com.woloxgram.post.util.exception;
 
 public class PostRestClientException extends RuntimeException {
 

@@ -16,7 +16,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.woloxgram.post.databuilder.PostTestDataBuilder;
 import com.woloxgram.post.model.Post;
 import com.woloxgram.post.service.impl.PostService;
-import com.woloxgram.post.util.restclient.exception.PostRestClientException;
+import com.woloxgram.post.util.exception.PostRestClientException;
 import com.woloxgram.post.util.restclient.impl.PostRestClient;
 
 @SpringBootTest
